@@ -1,51 +1,73 @@
 body {
-   background-color: yellow;
-   font-family: 'bobs_burgersregular';
+    margin-bottom: 25px;
+   background-image: url("../img/burger.gif");
+   background-position: center;
 }
 
 h1 {
+    font-size: 200px;
     text-align: center;
-    font-family: 'bobs_burgersregular';
+  
 }
 
 h3 {
     text-align: center;
     font-size: 300px;
-    font-family: 'bobs_burgersregular';
+   
 }
 
-.jumbotron-fluid{
-background-image: url("../img/bobsburgers.jpg");
-  background-size: 80%;
-  background-position: center; 
-  background-repeat: no-repeat;
-  height: auto;
+.jumbotron-fluid {
+    width: 100%;
+    background-image: url("../img/bobsburgers.jpg");
+    height: 200px;
+    background-position: center;
 }
 
 .display-4 {
-    font-size: 200px;
     text-align: center;
     color: yellow;
     font-family: 'bobs_burgersregular';
+    background-color: rgba(41, 41, 40, 0.75);
+
 }
 
 .burgers{
-    background: white;
-    opacity: .8;
+    background: black;
+    color: white;
     max-width: 500px;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 20px;
+    font-family: 'bobs_burgersregular';
+   
+}
+
+.burgerlist {
+background-color: #777777;
+padding-top: 20px;
+padding-bottom: 20px;
+
+margin: auto;
+}
+
+.category{
+    font-family: 'bobs_burgersregular';
+    color:white;
+
 }
 
 .deleteBtn {
     margin-left:auto;
     margin-right:auto;
+    
 }
+
 
 @font-face {
     font-family: 'bobs_burgersregular';
     src: url('/assets/css/fonts/bobs_burgers-webfont.woff2') format('woff2'),
-         url('/assets/css/fonts/bobs_burgers-webfont.woff') format('woff');
+         url('/assets/css/fonts/bobs_burgers-webfont.woff') format('woff'),
+         url('/public/assets/css/fonts/BobsBurgers.ttf'),
+         url('/public/assets/css/fonts/BobsBurgers2.ttf'); 
     font-weight: normal;
     font-style: normal;
 
