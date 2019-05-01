@@ -1,10 +1,10 @@
-var burger = require("../models/burger.js");
+const burger = require("../models/burger.js");
 
-console.log("controller is working")
+//console.log("controller is working")
 
-var express = require("express");
+const express = require("express");
 
-var router = express.Router();
+const router = express.Router();
 
 //Get all burgers
 router.get("/", function (req, res) {

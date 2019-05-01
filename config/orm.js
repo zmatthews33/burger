@@ -1,8 +1,8 @@
-var connection = require("./connection.js");
+const connection = require("./connection.js");
 
 
 
-var orm = {
+const orm = {
 
     //SELECTS ALL burgers that have not been 'devoured'
     selectAll: function (tableName, cb) {
